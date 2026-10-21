@@ -1,0 +1,6 @@
+# Orbox pins the exact toolchain so every machine (Linux CI container,
+# owner's Windows host) builds with identical compiler behavior.
+[toolchain]
+channel = "1.99.1"
+components = ["rustfmt", "clippy", "rust-src"]
+targets = ["x86_64-unknown-uefi"]

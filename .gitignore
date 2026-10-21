@@ -1,0 +1,11 @@
+# Build artifacts
+/target
+xtask/target
+
+# Delayed-clean staging directory (Windows file-lock workaround)
+/.orbox-trash/
+
+# Local QEMU artifacts (disk images, captures, serial dumps)
+*.img
+*.raw
+serial*.log

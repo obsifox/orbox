@@ -1,0 +1,10 @@
+[package]
+name = "xtask"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+# Zero third-party dependencies by policy (ADR 0006 companion rule for the
+# build bootstrap): this crate must remain `std`-only and auditable.
+[dependencies]

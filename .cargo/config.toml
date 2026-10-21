@@ -1,0 +1,5 @@
+# Enables the `cargo xtask <cmd>` pattern (see xtask convention:
+# https://github.com/matklad/cargo-xtask).
+# All xtask commands route through: cargo run -p xtask --
+[alias]
+xtask = "run -p xtask --"
